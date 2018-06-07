@@ -1,5 +1,5 @@
 /**
- * uploadcare-ckeditor 11.0.0
+ * uploadcare-ckeditor 12.0.0
  * File Uploader by Uploadcare. The plugin for CKEditor 4 to work with Uploadcare Widget.
  * https://github.com/uploadcare/uploadcare-ckeditor#readme
  * Date: 2018-06-07
@@ -31,7 +31,7 @@
 
       function applyIntegrationSetting() {
         var editorVersion = CKEDITOR.version;
-        var pluginVerion = '11.0.0';
+        var pluginVerion = '12.0.0';
 
         config.integration = 'CKEditor/{editorVersion}; Uploadcare-CKEditor/{pluginVerion}'
           .replace('{editorVersion}', editorVersion)
