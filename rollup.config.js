@@ -6,7 +6,7 @@ import pkg from './package.json'
 export default {
   input: 'src/uploadcare-ckeditor4.js',
   plugins: [
-    cp({'src/icons': 'dist/uploadcare/icons/'}),
+    cp({'src/icons': 'dist/icons/'}),
     license({
       banner: `
         <%= pkg.name %> <%= pkg.version %>
@@ -18,7 +18,7 @@ export default {
     jscc({values: {_WIDGET_VERSION: pkg.widgetVersion}}),
   ],
   output: {
-    file: 'dist/uploadcare/plugin.js',
+    file: 'dist/plugin.js',
     format: 'iife',
   },
 }
